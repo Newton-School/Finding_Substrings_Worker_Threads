@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 30000 --exit",
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 25000 --exit",
     "start": "node index.js"
   },
   "keywords": [],
