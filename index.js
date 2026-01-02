@@ -10,10 +10,15 @@ function runWorker(text) {
 
 app.post("/substrings", async (req, res) => {
   
+    res.status(200).json({
+
+    })
 });
 
 app.get("/", (req, res) => {
-
+    res.status(200).json({
+        
+    })
 });
 
 
